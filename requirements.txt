@@ -1,0 +1,10 @@
+streamlit
+pandas
+sqlite3
+requests
+numpy
+Pillow
+scikit-learn
+httpx
+beautifulsoup4
+huggingface_hub
