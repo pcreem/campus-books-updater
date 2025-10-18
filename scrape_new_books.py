@@ -201,7 +201,8 @@ async def main():
         api.upload_file(
             path_or_fileobj='data.json',
             path_in_repo='data.json',
-            repo_id='pcreem/campusBooks',  # 你的 HF Spaces repo ID
+            repo_id='pcreem/campusBooks',  # 確認這是您的 Spaces ID
+            repo_type='space',  # 新增這行：指定為 Spaces
             token=os.getenv('HF_TOKEN'),
             commit_message='Weekly update: new books scraped'
         )
